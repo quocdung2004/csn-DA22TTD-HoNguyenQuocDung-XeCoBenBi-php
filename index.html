@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="SHORTCUT ICON" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/datLich.css">
+    <link rel="stylesheet" href="css/sanPham.css">
+    <title>Xe cộ bền bỉ</title>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__nav">
+                <ul class="header__nav--list">
+                    <li class="header--item"><a class="link" href="lienHe.php">Liên hệ</a></li>
+                    <li class="header--item"><button id="btnDatLich">Đặt lịch</button></li>
+                    <li class="header--item hang"><a class="link" href="dichVu.php">Dịch vụ</a>
+                    <ul class="hang">
+                        <a class="hang-link" href="dichVu.php#mitsubishi"><li class="hang-con">Mitsubishi</li></a>
+                        <a class="hang-link" href="dichVu.php#toyota"><li class="hang-con">Toyota</li></a>
+                        <a class="hang-link" href="dichVu.php#kia"><li class="hang-con">Kia</li></a>
+                    </ul>                
+                    </li>
+                </ul>
+                <ul class="header__nav--list">                    
+                    <li class="header--item"><a class="link" href="lsBaoDuong.php">Lịch sử bảo dưỡng</a></li>
+                    <li class="header--item"><button id="btnDangKi">Đăng ký</button></li>
+                    <li class="header--item"><button id="btnDangNhap">Đăng nhập</button></li>
+                </ul>
+                </nav>
+                <div class="header-search">
+                    <div class="header-logo">
+                        <a href="index.php"><img src="img/logo.jpg" alt="" class="img"></a>
+                    </div>
+                    <div class="header-search">
+                        <input type="text" class="search" placeholder="Tìm kiếm dịch vụ">
+                    </div>
+                    <div class="header-hotLine">
+                        <svg class="phone" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M20 10.999h2C22 5.869 18.127 2 12.99 2v2C17.052 4 20 6.943 20 10.999z"></path><path d="M13 8c2.103 0 3 .897 3 3h2c0-3.225-1.775-5-5-5v2zm3.422 5.443a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a1 1 0 0 0-.086-1.391l-4.064-3.696z"></path></svg>
+                        <div class="sdt">0336766665</div>
+                    </div>
+                </div>        
+            </div>
+            
+        </header>
+        <div class="container"> 
+            <div class="grid">
+                <div class="swiper">
+                    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"  space-between="30"
+                        centered-slides="true" autoplay-delay="2200" autoplay-disable-on-interaction="false">
+                        <swiper-slide><img src="img/imgMain.jpg" alt=""></swiper-slide> <!-- id="mainslide"-->
+                        <swiper-slide><img src="img/loc-dau-o-to.jpg" alt=""></swiper-slide>
+                        <swiper-slide><img src="img/baoDuongKia.jpg" alt=""></swiper-slide>
+                        <swiper-slide><img src="img/baoDuongMitsu.jpg" alt=""></swiper-slide>
+                        <swiper-slide><img src="img/baoDuongToyota.jpg" alt=""></swiper-slide>
+                        <swiper-slide><img src="img/thayDauXpander.jpg" alt=""></swiper-slide>
+                        <swiper-slide><img src="img/thayLopXpander.jpg" alt=""></swiper-slide>
+                        <swiper-slide><img src="img/locGioMitsubishi.jpg" alt=""></swiper-slide>
+                    </swiper-container>
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+                </div>
+                <h1>Bảo dưỡng ô tô là gì?</h1>
+                <p>Bảo Dưỡng Xe Ô Tô là quá trình kiểm tra, bảo dưỡng và thay thế các linh kiện, dầu nhớt cũng như các hệ thống quan trọng để đảm bảo xe luôn hoạt động trong tình trạng tối ưu nhất. Dưới đây là một số lý do chính mà bạn không nên bỏ qua việc Bảo Dưỡng Xe:</p>
+                <p style="text-indent: 30px;">– Gia Tăng Tuổi Thọ Xe: Việc thực hiện Bảo Dưỡng Xe Ô Tô giúp các bộ phận của xe được làm việc hiệu quả và kéo dài tuổi thọ của các chi tiết trên xe. Các lỗi nhỏ nếu không được sửa chữa kịp thời có thể trở thành những hư hỏng lớn và tốn kém.</p>
+                <p style="text-indent: 30px;">– Đảm Bảo An Toàn: Một chiếc xe không được Bảo Dưỡng định kỳ có thể gặp phải những sự cố bất ngờ khi đang hoạt động, điều này có thể dẫn đến các tình huống nguy hiểm. Bảo dưỡng thường xuyên giúp phát hiện và khắc phục các vấn đề tiềm ẩn trước khi chúng trở thành mối nguy hiểm.</p>
+                <p style="text-indent: 30px;">– Tiết Kiệm Chi Phí: Việc Bảo Dưỡng Xe Ô Tô giúp bạn phát hiện sớm các hư hỏng nhỏ, từ đó giảm thiểu chi phí sửa chữa lớn sau này. Thay vì phải bỏ tiền cho việc sửa chữa các vấn đề lớn, bạn chỉ cần chi cho việc bảo dưỡng định kỳ, điều này tiết kiệm hơn nhiều.</p>
+                <p style="text-indent: 30px;">– Giữ Giá Trị Xe Cao: Một chiếc xe được bảo dưỡng tốt có thể giữ giá trị bán lại cao hơn. Người mua xe cũ luôn ưu tiên những chiếc xe có lịch sử bảo dưỡng rõ ràng và được bảo dưỡng định kỳ.</p>
+                <h1>Các mốc bảo dưỡng ô tô cần nhớ:</h1>
+                <p>Thông thường, quy trình bảo dưỡng xe cho từng bộ phận sẽ được tiến hành định kỳ theo số km di chuyển hoặc thời gian sử dụng nhất định như sau:</p>
+                <p class="in_dam">Bảo dưỡng định kỳ theo tháng:</p>
+                <p>– Sau 6 – 12 tháng: Thay mới cần gạt nước.</p>
+                <p>– Sau 12 tháng: Thay dầu máy (ngay cả khi chưa chạy đủ 12.000km).</p>
+                <p>– Sau 12 – 24 tháng: Thay dầu ly hợp và thay dầu phanh xe.</p>
+                <p>– Ít nhất 2 năm: Kiểm tra ắc quy tối thiểu 1 lần.</p>
+                <p class="in_dam">Bảo dưỡng định kỳ theo số km di chuyển:</p>
+                <p>– Từ 8.000 – 12.000km: Thay dầu máy.</p>
+                <p>– Từ 8.000 – 16.000km: Đảo lốp xe.</p>
+                <p>– Từ 19.000km: Thay lọc gió.</p>
+                <p>– Từ 48.000km: Thay nước mát.</p>
+                <p>– Từ 60.000km: Thay mới má phanh.</p>
+                <p>– Từ 48.000 – 97.000km: Thay dầu trợ lực lái.</p>
+                <div class="header-product">
+                    <h1 style="margin-left: 12px;">Một số dịch vụ nổi bật:</h1>   
+                    <a class="xemTatCa" href="dichVu.php">Tất cả dịch vụ</a>
+                </div>             
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-2-4">
+                            <div class="service-card">
+                                <img src="img/baoDuongMitsu.jpg" alt="Dịch vụ bảo dưỡng ô tô" class="service-image">
+                                <div class="service-content">
+                                <h3 class="service-title">Bảo dưỡng định kỳ</h3>
+                                <p class="service-price">Giá: 1,500,000 VNĐ</p>
+                                <p style="color: #333;" class="service-price">Mẫu xe: Mitsubishi Xpander</p>
+                                    <div class="service-buttons">
+                                        <button class="service-button book-now" onclick="bookService()">Đặt Lịch</button>
+                                        <button class="service-button view-details" onclick="viewDetails()">Xem Chi Tiết</button>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>                                                                          
+                    </div>                                    
+                </div>
+                </div>
+
+        </div>
+        <footer class="footer">
+            <div class="footer__danhMuc">
+                <div class="grid20">
+                    <h4 class="footer__heading">
+                        Chăm sóc khách hàng
+                    </h4>
+                    <ul class="footer__list">
+                        <li><a href="" class="footer__list--item">Trung tâm trợ giúp</a></li>
+                        <li><a href="" class="footer__list--item">Xe cộ bền bỉ Mall</a></li>
+                        <li><a href="" class="footer__list--item">Hướng dẫn đặt lịch</a></li>
+                    </ul>
+                </div>
+                <div class="grid20">               
+                    <h4 class="footer__heading">
+                        Giới thiệu
+                    </h4>
+                    <ul class="footer__list">
+                        <li><a href="" class="footer__list--item">Giới thiệu</a></li>
+                        <li><a href="" class="footer__list--item">Tuyển dụng</a></li>
+                        <li><a href="" class="footer__list--item">Điều khoản</a></li>
+                    </ul>
+                </div>
+                <div class="grid20">
+                    <h4 class="footer__heading">
+                        Dịch vụ
+                    </h4>
+                    <ul class="footer__list">
+                        <li><a href="" class="footer__list--item">Kia</a></li>
+                        <li><a href="" class="footer__list--item">Mitsubishi</a></li>
+                        <li><a href="" class="footer__list--item">Toyota</a></li>
+                    </ul>
+                </div>
+                <div class="grid20">
+                    <h4 class="footer__heading">
+                        Theo dõi
+                    </h4>
+                    <ul class="footer__list">
+                        <li class="namChung">
+                            <img src="https://down-vn.img.susercontent.com/file/2277b37437aa470fd1c71127c6ff8eb5" alt="" class="footer__list--icon">
+                            <a href="" class="footer__list--item">Facebook</a>
+                        </li>
+                        <li class="namChung">
+                            <img src="https://down-vn.img.susercontent.com/file/5973ebbc642ceee80a504a81203bfb91" alt="" class="footer__list--icon">
+                            <a href="" class="footer__list--item">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid20">
+                    <h4 class="footer__heading">
+                        Vào cửa hàng trên ứng dụng
+                    </h4>
+                    <div class="footer__download">
+                        <img src="img/qr.jpg" alt="" class="footer__download--QR">
+                        <div class="footer__download-app">
+                            <a href="#" class="footer__download-app-link" style="margin-left: 15px;">
+                                <img src="https://down-vn.img.susercontent.com/file/ae7dced05f7243d0f3171f786e123def" alt="">
+                            </a>
+                            <a href="#" class="footer__download-app-link" style="margin-left: 10px;">
+                                <img src="https://down-vn.img.susercontent.com/file/ad01628e90ddf248076685f73497c163" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBanQuyen">
+                <div class="footerBanQuyen__noiDung">
+                    <a href="#" class="list">Giới thiệu</a>
+                    <a href="#" class="list">Chính sách sử dụng</a>
+                    <a href="#" class="list">Bảo mật</a>
+                    <font style="color: grey;">&copy; 2024 - Bản quyền thuộc về công ty Durbable Cars</font>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal">
+        <div class="modal-overlay">
+        </div>
+        <div class="container">
+            <div class="dangKi">
+                <svg id="close" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                </svg>
+                <div class="dangKi__o  dangKy">                                                   
+                    <div class="o__dki">                                                                
+                        <div class="o__dki--dki" style="background-color: white;
+                            color: black;
+                            font-size: 30px;
+                            font-family: Bitter;
+                            font-weight: 900;">Đăng ký</div>                   
+                    </div>
+                    <input type="email" class="o__dki--input invalid" placeholder="Email">
+                    <input type="text" class="o__dki--input" placeholder="Tên đăng nhập">
+                    <input type="password" class="o__dki--input" placeholder="Mật khẩu">
+                    <input type="password" class="o__dki--input" placeholder="Nhập lại mật khẩu">
+                    <div class="o__dki--tuyChon">
+                        <a href="" class="o__dki--dieuHuong">Đăng ký</a>
+
+                    </div>
+
+                    <p style=" margin-top: 10px;
+                    font-size: 15px;
+                    text-align: center;
+                    font-family: 'Bitter';">
+                        ------ Hoặc-----
+                    </p>
+
+                    <div class="o__dki--media">
+                        <a href="" class="o__dki--media--media">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg>
+                            Facebook
+                        </a>
+                        <a href="" class="o__dki--media--mediaIG">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16" >
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                            Instagram
+                        </a>                            
+                    </div>
+                    <div class="btnDangKy">
+                        <div>Đã có tài khoản?</div>
+                        <button class="btnDk" id="dn">Đăng nhập</button>                        
+                    </div>                
+                </div>
+                <div class="dangKi__o  dangNhap">                               
+                    <div class="o__dki">                                                            
+                        <div class="o__dki--dki" style="background-color: white;
+                            color: black;
+                            font-size: 30px;
+                            font-family: Bitter;
+                            font-weight: 900;">Đăng nhập</div>                    
+                    </div>
+                    <input type="text" class="o__dki--input" placeholder="Tên tài khoản">
+                    <input type="password" class="o__dki--input" placeholder="Mật khẩu">
+
+                    <a style="margin-top: 5px;" href="" class="o__dki--QMK">Quên mật khẩu</a>
+                    <div class="o__dki--tuyChon">
+                        <a href="" class="o__dki--dieuHuong">Đăng nhập</a>
+
+                    </div>
+
+                    <p style=" margin-top: 10px;
+                    font-size: 15px;
+                    text-align: center;
+                    font-family: 'Bitter';">
+                        ------ Hoặc ------
+                    </p>
+
+                    <div class="o__dki--media">
+                        <a href="" class="o__dki--media--media">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg>
+                            Facebook
+                        </a>
+                        <a href="" class="o__dki--media--mediaIG">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16" >
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                            Instagram
+                        </a>
+
+                    </div>
+
+
+                    <div class="btnDangKy">
+                        <div>Chưa có tài khoản?</div>
+                        <button class="btnDk" id="dk">Đăng ký</button>
+                    </div>            
+
+                </div>
+                <div class="dangKi__o datLich">
+                    <form>
+                        <div class="o__dki">                                                            
+                            <div class="o__dki--dki" style="background-color: white;
+                                color: black;
+                                font-size: 30px;
+                
+                                font-weight: 900;">Đặt lịch</div>                    
+                        </div>
+                        <!-- Chọn loại xe -->
+                        <div class="mb-3">
+                          <label for="vehicleType" class="form-label">Chọn loại xe</label>
+                          <select class="form-select" id="vehicleType" required>
+                            <option selected disabled value="">Chọn...</option>
+                            <option value="Mitsubishi Xpander">Mitsubishi</option>
+                            <option value="Toyota Vios">Toyota Vios</option>
+                            <option value="Kia Morning">Kia Morning</option>
+                          </select>
+                        </div>
+                    
+                        <!-- Chọn dịch vụ -->
+                        <div class="mb-3">
+                          <label for="serviceType" class="form-label">Chọn dịch vụ</label>
+                          <select class="form-select" id="serviceType" required>
+                            <option selected disabled value="">Chọn...</option>
+                            <option value="oilChange">Thay dầu</option>
+                            <option value="tireCheck">Kiểm tra lốp</option>
+                            <option value="engineCheck">Kiểm tra động cơ</option>
+                          </select>
+                        </div>
+                    
+                        <!-- Chọn thời gian -->
+                        <div class="mb-3">
+                          <label for="appointmentDate" class="form-label">Chọn thời gian</label>
+                          <input type="date" class="form-control" id="appointmentDate" required>
+                        </div>
+                    
+                        <!-- Hiển thị giá -->
+                        <div class="mb-3">
+                          <label for="priceDisplay" class="form-label">Giá dịch vụ</label>
+                          <input type="text" class="form-control" id="priceDisplay" placeholder="0 VND" disabled>
+                        </div>
+                    
+                        <!-- Nút đặt lịch -->
+                        <div class="d-grid">
+                          <button type="submit" class="btn btn-success" onclick="saveData()">Đặt Lịch</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+    <script src="js/sanPham.js"></script>
+    <script src="js/datLich.js"></script>
+</body>
+</html>

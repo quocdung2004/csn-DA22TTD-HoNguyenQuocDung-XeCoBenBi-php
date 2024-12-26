@@ -1,0 +1,74 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+}
+h1{
+    font-size: 3rem;
+    /* background: #32cd32; */
+    height: 4rem;
+    line-height: 4rem;
+    color: #FFF;
+}
+p{
+    font-size: 1.6rem;
+    margin-left: 8px;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid_datLich{
+    width: 650px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 1px;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.grid__column-2-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+    padding-top: 6px;
+}
+.grid__column-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
+
+}
+
+h1{
+    font-weight: 400;
+    color: #333;
+}
+.footer{
+    margin-top: 20px;
+}
+.container{
+    display: block;
+}
