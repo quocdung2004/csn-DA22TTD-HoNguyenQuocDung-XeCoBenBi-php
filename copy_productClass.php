@@ -76,7 +76,7 @@ class product
         $noidung = $_POST['noidung'];
         $query = "INSERT INTO tbl_lienhe (tenlh, emaillh, noidung) 
             VALUES ('$tenlh', '$emaillh', '$noidung')";
-        echo '<script>window.location.href = "index.php";</script>';
+        echo "<script>alert('Đã gửi biểu mẫu liên hệ thành công.');window.location.href = 'index.php';</script>";
         return $this->db->insert($query);
     }
     public function ktDN()
@@ -210,5 +210,20 @@ class product
         $result = $this->db->delete($query);
         return $result;
     }
+    public function delete_lienhe($lienhe_id)
+    {
+        $query = "DELETE FROM tbl_lienhe WHERE lienhe_id = '$lienhe_id' ";
+        $result = $this->db->delete($query);
+        header('Location:lienhead.php');
+        return $result;
+    }
+    public function delete_user($user_id)
+    {
+        $query = "DELETE FROM tbl_user WHERE user_id = '$user_id' ";
+        $result = $this->db->delete($query);
+        header('Location:userlist.php');
+        return $result;
+    }
+    
 }
 ?>

@@ -30,18 +30,18 @@ function getServices($conn)
             <ul class="footer__list">
                 <li><a href="lienHe.php" class="footer__list--item">Liên hệ</a></li>
                 <li><a href="index.php" class="footer__list--item">Trang chủ</a></li>
-                <li><a href="datLich.php" class="footer__list--item">Hướng dẫn đặt lịch</a></li>
+                <!-- <li><a href="datLich.php" class="footer__list--item">Hướng dẫn đặt lịch</a></li> -->
             </ul>
         </div>
         <div class="grid20">
             <h4 class="footer__heading">
                 Giới thiệu
             </h4>
-            <ul class="footer__list">
+            <!-- <ul class="footer__list">
                 <li><a href="" class="footer__list--item">Giới thiệu</a></li>
                 <li><a href="" class="footer__list--item">Tuyển dụng</a></li>
                 <li><a href="" class="footer__list--item">Điều khoản</a></li>
-            </ul>
+            </ul> -->
         </div>
         <div class="grid20">
             <h4 class="footer__heading">
@@ -88,9 +88,9 @@ function getServices($conn)
     </div>
     <div class="footerBanQuyen">
         <div class="footerBanQuyen__noiDung">
-            <a href="#" class="list">Giới thiệu</a>
+            <!-- <a href="#" class="list">Giới thiệu</a>
             <a href="#" class="list">Chính sách sử dụng</a>
-            <a href="#" class="list">Bảo mật</a>
+            <a href="#" class="list">Bảo mật</a> -->
             <font style="color: grey;">&copy; 2024 - Bản quyền thuộc về công ty Durbable Cars</font>
         </div>
     </div>

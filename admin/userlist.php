@@ -17,6 +17,7 @@ $show_user = $product->show_user();
             <th>Email</th>
             <th>Tên tài khoản</th>
             <th>Mật khẩu</th>
+            <th>Thao tác</th>
         </tr>
         <?php
         if ($show_user) {
@@ -31,6 +32,7 @@ $show_user = $product->show_user();
                     <td><?php echo $result['email'] ?></td>
                     <td><?php echo $result['user_name'] ?></td>
                     <td><?php echo $result['matkhau'] ?></td>
+                    <td><a href="userDelete.php?user_id=<?php echo $result['user_id'] ?>">Xóa</a></td>
                 </tr>
         <?php
             }

@@ -16,6 +16,7 @@ $show_lienhe = $product->show_lienhe();
             <th>Họ tên</th>
             <th>Email</th>
             <th>Nội dung</th>
+            <th>Thao tác</th>
         </tr>
         <?php
         if ($show_lienhe) {
@@ -29,6 +30,7 @@ $show_lienhe = $product->show_lienhe();
                     <td><?php echo $result['tenlh'] ?></td>
                     <td><?php echo $result['emaillh'] ?></td>
                     <td><?php echo $result['noidung'] ?></td>
+                    <td><a href="lienheDelete.php?lienhe_id=<?php echo $result['lienhe_id'] ?>">Xóa</a></td>
                 </tr>
         <?php
             }

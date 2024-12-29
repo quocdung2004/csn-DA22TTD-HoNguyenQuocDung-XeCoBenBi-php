@@ -26,7 +26,6 @@
                 <nav class="header__nav">
                     <ul class="header__nav--list">
                         <li class="header--item"><a class="link" href="index.php">Trang chủ</a></li>
-                        <li class="header--item"><a class="link" href="lienHe.php">Liên hệ</a></li>
                         <li class="header--item"><a href="datLich.php" id="btnDatLich">Đặt lịch</a></li>
                         <li class="header--item hang"><a class="link" href="dichVu.php">Dịch vụ</a>
                             <ul class="hang">
@@ -49,6 +48,7 @@
                         <li class="header--item"><a class="link" href="lsBaoDuong.php">Lịch sử bảo dưỡng</a></li>
                         <li class="header--item" id="login"><a class="link" href="login.php">Đăng nhập</a></li>
                         <li class="header--item" id="register"><a class="link" href="register.php">Đăng ký</a></li>
+                        <li class="header--item"><a class="link" href="lienHe.php">Liên hệ</a></li>
                         <li class="header--item" id="logout" style="display: none;"><a class="link" href="#">Đăng xuất</a></li>
                     </ul>
                 </nav>
