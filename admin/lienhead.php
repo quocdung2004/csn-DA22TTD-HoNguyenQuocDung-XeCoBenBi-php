@@ -39,3 +39,7 @@ $show_lienhe = $product->show_lienhe();
     </table>
     </div>
 </div>
+</section>
+<?php
+include "footer_admin.php";
+?>

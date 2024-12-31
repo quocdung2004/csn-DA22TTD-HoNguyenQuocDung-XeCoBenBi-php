@@ -111,3 +111,13 @@ img{
     height: 80px;
     width: 80px;
 }
+/* footer */
+.footerAdmin{
+    background-color: #bbbbbb;
+    display: flex;
+    height: 100px;
+}
+.footerAdmin_font{
+    margin: auto;
+    margin-bottom: 10px;
+}

@@ -47,6 +47,7 @@
         </table>
     </div>
 </div>
-    </section>
-</body>
-</html>
+</section>
+<?php
+include "footer_admin.php";
+?>

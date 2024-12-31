@@ -39,6 +39,6 @@ $show_brand = $brand->show_brand();
     </div>
 </div>
 </section>
-</body>
-
-</html>
+<?php
+include "footer_admin.php";
+?>

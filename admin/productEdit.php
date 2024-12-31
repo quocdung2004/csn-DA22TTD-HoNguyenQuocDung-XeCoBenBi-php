@@ -132,7 +132,6 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         </form>
     </div>
 </div>
-</body>
 <script>
     /*Bắt sự kiện */
     $(document).ready(function() {
@@ -148,4 +147,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     })
 </script>
 
-</html>
+</section>
+<?php
+include "footer_admin.php";
+?>

@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     </div>
 </div>
 <script src="kiemLoi.js"></script>
-</body>
+
 <script>
     /*Bắt sự kiện */
     $(document).ready(function() {
@@ -65,6 +65,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         })
     })
 </script>
-
-</html>
+</section>
+<?php
+include "footer_admin.php";
+?>
 

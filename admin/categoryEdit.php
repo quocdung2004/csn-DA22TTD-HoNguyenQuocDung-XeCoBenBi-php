@@ -31,6 +31,6 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     </div>
 </div>
 </section>
-</body>
-
-</html>
+<?php
+include "footer_admin.php";
+?>

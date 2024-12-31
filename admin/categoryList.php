@@ -38,6 +38,6 @@ $show_category = $category->show_category();
     </div>
 </div>
 </section>
-</body>
-
-</html>
+<?php
+include "footer_admin.php";
+?>

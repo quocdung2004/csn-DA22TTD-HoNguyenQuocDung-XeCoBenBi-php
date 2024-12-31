@@ -41,7 +41,6 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     </div>
 </div>
 </section>
-<script src="kiemLoi.js"></script>
-</body>
-
-</html>
+<?php
+include "footer_admin.php";
+?>

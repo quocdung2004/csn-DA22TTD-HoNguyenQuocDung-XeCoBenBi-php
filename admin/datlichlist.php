@@ -47,3 +47,7 @@ $show_datlich = $product->show_datLich();
     </table>
     </div>
 </div>
+</section>
+<?php
+include "footer_admin.php";
+?>

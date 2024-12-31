@@ -41,3 +41,7 @@ $show_user = $product->show_user();
     </table>
     </div>
 </div>
+</section>
+<?php
+include "footer_admin.php";
+?>
