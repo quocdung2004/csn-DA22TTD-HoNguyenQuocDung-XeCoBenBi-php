@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+h1{
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+header{
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+    line-height: 100px;
+    background: rgb(238, 158, 9);
+}
+.admin-content{
+    padding-top: 50px;
+    display: flex;
+}
+.admin-contentleft{
+    background-color: #ddd;
+    width: 20%;
+    height: 500px;
+    padding: 30px 0 0 12px;
+}
+.admin-contentleft>ul>li>a{
+    font-weight: bold;
+}
+.admin-contentleft ul li{
+    margin: 6px 0;
+}
+.admin-contentleft ul ul{
+    margin-left: 20px;
+}
+.admin-contentRight{
+    width: 80%;
+    padding: 30px 0 0 12px ;
+}
+.admin-contentRight-category_add input{
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+.admin-contentRight-category_add button{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.admin-contentRight-category_add button:hover{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}
+/* Category list  */
+.admin-contentRight-category_list{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.admin-contentRight-category_list table tr th,td{
+    border: 1px solid #000000;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+/*---------------------------------- Product */
+.admin-contentRight-product_add input,select{
+    width: 300px;
+    height: 30px;
+    display: block;
+    margin: 20px 0;
+    padding-left: 6px;
+}
+.admin-contentRight-product_add button{
+    display: block;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(233, 123, 20);
+    border: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+.admin-contentRight-product_add button:hover{
+    background-color: transparent;
+    border: 1px solid rgb(233, 123, 20);
+    color: rgb(150, 72, 0);
+}
+img{
+    margin-top: 4px;
+    height: 80px;
+    width: 80px;
+}
+/* footer */
+.footerAdmin{
+    margin-top: 20px;
+    background-color: #bbbbbb;
+    display: flex;
+    height: 100px;
+}
+.footerAdmin_font{
+    margin: auto;
+    margin-bottom: 10px;
+}
