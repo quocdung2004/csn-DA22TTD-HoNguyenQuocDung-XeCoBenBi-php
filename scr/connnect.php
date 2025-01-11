@@ -2,7 +2,7 @@
 $servername = "127.0.0.1";
 $username = "root";
 $password = "";
-$database = "doan_csn";
+$database = "scr";
 
 // Tạo kết nối
 $conn = new mysqli($servername, $username, $password, $database);

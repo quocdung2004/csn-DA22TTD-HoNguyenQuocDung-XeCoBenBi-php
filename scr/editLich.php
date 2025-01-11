@@ -125,13 +125,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <label for="priceDisplay" class="form-label">Giá dịch vụ</label><br>
                 <select name="product_price" class="form-select" id="product_price" required>
                     <?php
-                    $brand_id = $resultdl['brand_id']; // Lấy brand_id từ dữ liệu sửa
-                    $show_brand = $product->show_brand_by_brand($brand_id); // Lọc product theo brand
-                    if ($show_brand) {
-                        while ($result = $show_brand->fetch_assoc()) {
+                    $product_id = $resultdl['product_id'];
+                    $show_product = $product->show_price_by_product($product_id);
+                    if ($show_product) {
+                        while ($result = $show_product->fetch_assoc()) {
                     ?>
                             <option value="<?php echo $result['product_price']; ?>"
-                                <?php if ($result['product_id'] == $resultdl['product_id'])  ?>>
+                                <?php if ($result['product_id'] == $resultdl['product_id']) {
+                                    echo "selected";
+                                } ?>>
                                 <?php echo $result['product_price']; ?>
                             </option>
                     <?php

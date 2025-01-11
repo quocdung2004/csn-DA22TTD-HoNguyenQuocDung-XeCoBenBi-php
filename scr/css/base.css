@@ -34,6 +34,7 @@ p{
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+    min-height: 288px;
 }
 .grid_datLich{
     width: 650px;

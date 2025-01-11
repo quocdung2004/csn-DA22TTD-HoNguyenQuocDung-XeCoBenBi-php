@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 08, 2025 lúc 04:15 PM
+-- Thời gian đã tạo: Th1 11, 2025 lúc 02:45 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `doan_csn`
+-- Cơ sở dữ liệu: `scr`
 --
 
 -- --------------------------------------------------------
@@ -101,7 +101,8 @@ CREATE TABLE `tbl_datlich` (
 INSERT INTO `tbl_datlich` (`datlich_id`, `hoten`, `sdt`, `biensoxe`, `category_id`, `brand_id`, `product_id`, `ngaybd`, `product_price`) VALUES
 (14, 'Hồ Nguyễn Quốc Dũng', '0336766665', '84-A07856', 11, 28, 70, '2024-12-29', 150000),
 (21, 'Hồ Nguyễn Quốc Dũng', '0336766665', '84-A07856', 22, 27, 56, '2025-01-05', 700000),
-(22, 'Hồ Nguyễn Quốc Dũng', '0336766665', '84-A07856', 19, 12, 57, '2025-01-05', 400000);
+(22, 'Hồ Nguyễn Quốc Dũng', '0336766665', '84-A07856', 19, 12, 57, '2025-01-05', 400000),
+(23, 'Hồ Nguyễn Quốc Dũng', '0336766665', '84-A07856', 19, 18, 73, '2025-01-29', 150000);
 
 -- --------------------------------------------------------
 
@@ -275,37 +276,37 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT cho bảng `tbl_brand`
 --
 ALTER TABLE `tbl_brand`
-  MODIFY `brand_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `brand_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_category`
 --
 ALTER TABLE `tbl_category`
-  MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_datlich`
 --
 ALTER TABLE `tbl_datlich`
-  MODIFY `datlich_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `datlich_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_lienhe`
 --
 ALTER TABLE `tbl_lienhe`
-  MODIFY `lienhe_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `lienhe_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_product`
 --
 ALTER TABLE `tbl_product`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=121;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=124;
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- Các ràng buộc cho các bảng đã đổ

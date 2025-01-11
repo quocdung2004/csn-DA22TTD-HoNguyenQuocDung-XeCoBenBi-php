@@ -6,12 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
         
         inputs.forEach(input => {
             const value = input.value.trim();
-            const placeholder = input.getAttribute("placeholder") || "trường này";
 
             // Kiểm tra nếu trường bị bỏ trống
             if (!value || value === "#") {
                 isValid = false;
-                alert(`Vui lòng nhập ${placeholder}`);
+                alert(`Vui lòng nhập đầy đủ thông tin`);
                 input.focus();
                 return false;
             }

@@ -1,7 +1,7 @@
 <?php
 include "header_index.php";
 include "connnect.php";
-require_once('../DA_CSN/admin/database.php');
+require_once('../scr/admin/database.php');
 $db = new Database;
 $db->connectDB();
 ?>

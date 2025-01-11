@@ -38,6 +38,10 @@ class product
         $query = "SELECT * FROM tbl_brand WHERE category_id = '$category_id'";
         return $this->db->select($query); // Truy vấn danh sách brand theo category
     }
+    public function show_price_by_product($product_id){
+        $query = "SELECT * FROM tbl_product WHERE product_id = '$product_id'";
+        return $this->db->select($query);
+    }
     public function show_product()
     {
         $query = "SELECT tbl_product.*, tbl_category.category_name, tbl_brand.brand_name
@@ -81,7 +85,7 @@ class product
     }
     public function ktDN()
     {
-        $conn = new mysqli('localhost', 'root', '', 'doan_csn');
+        $conn = new mysqli('localhost', 'root', '', 'scr');
         if ($conn->connect_error) {
             die("Kết nối thất bại: " . $conn->connect_error);
         }
@@ -105,7 +109,7 @@ class product
     }
     public function ktDK()
     {
-        $conn = new mysqli('localhost', 'root', '', 'doan_csn');
+        $conn = new mysqli('localhost', 'root', '', 'scr');
         if ($conn->connect_error) {
             die("Kết nối thất bại: " . $conn->connect_error);
         }

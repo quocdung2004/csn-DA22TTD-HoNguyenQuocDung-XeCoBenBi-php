@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         <h1>Thêm dịch vụ</h1>
         <form action="" method="POST" enctype="multipart/form-data">
             <input name="product_name" require type="text" placeholder="Tên dịch vụ">
-            <select name="category_id" id="category_id">
+            <select name="category_id" id="category_id" require>
                 <option value="">Chọn hãng xe</option>
                 <?php
                 $show_category = $product->show_category();
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                 }
                 ?>
             </select>
-            <select name="brand_id" id="brand_id">
+            <select name="brand_id" id="brand_id" require>
                 <option value="" selected>Chọn mẫu xe</option>
 
             </select>

@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     <div class="admin-contentRight-category_add">
         <h1>Thêm mẫu xe</h1><br>
         <form action="" method="POST">
-            <select name="category_id" id="">
+            <select name="category_id" id="" require>
                 <option value="#">--Chọn mẫu xe--</option>
                 <?php
                 $show_category = $brand->show_category();

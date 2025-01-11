@@ -1,8 +1,7 @@
 <?php
-// Kết nối cơ sở dữ liệu
 include "connnect.php";
 include 'header_index.php';
-require_once('../DA_CSN/admin/database.php');
+require_once('../scr/admin/database.php');
 // Lấy từ khóa từ ô tìm kiếm
 $search_query = isset($_GET['search_query']) ? trim($_GET['search_query']) : '';
 
